@@ -1,5 +1,5 @@
 ﻿.header {
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
   font-family: trebuchet ms, arial, hevetica, sans-serif;
   text-transform: none;
@@ -11,7 +11,7 @@
 }
 
 .header:hover {
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
   font-family: trebuchet ms, arial, hevetica, sans-serif;
   text-transform: none;
@@ -21,7 +21,7 @@
 }
 
 .item {
-  font-size: large;
+  font-size: medium;
   font-family: trebuchet ms, arial, hevetica, sans-serif;
   text-transform: none;
   text-decoration: none;
@@ -30,7 +30,7 @@
 }
 
 .statement {
-  font-size: large;
+  font-size: medium;
   font-family: trebuchet ms, arial, hevetica, sans-serif;
   text-transform: none;
   text-decoration: none;
@@ -39,7 +39,7 @@
 }
 
 .statement:hover {
-  font-size: large;
+  font-size: medium;
   font-family: trebuchet ms, arial, hevetica, sans-serif;
   text-transform: none;
   text-decoration: underline;
