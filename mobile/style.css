@@ -1,0 +1,106 @@
+﻿.outercontainer {
+  height: 100%;
+  width: 85%;
+  margin: auto;
+
+}
+
+header {
+  padding: 60px;
+  padding-top: 120px;
+  padding-bottom: 0px;
+}
+
+nav ul {
+	list-style-type: none;
+  padding-top: 0px;
+	padding: 60px;
+  padding-bottom:0px;
+}
+
+.header {
+  font-size: 18px;
+
+  font-weight: bold;
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  
+}
+
+.header:hover {
+  font-size: 18px;
+
+  font-weight: bold;
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.item {
+  font-size: 18px;
+
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.item:hover {
+  font-size: 18px;
+
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: underline;
+  color: #000000;
+
+}
+
+.statement {
+  font-size: 18px;
+
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.statement:hover {
+  font-size: 18px;
+
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: underline;
+  color: #000000;
+
+}
+
+#top {
+  position: absolute;
+  width: 700px;
+  height: 200px;
+  background-color: #ffffff;
+  padding-bottom: 0px;
+
+}
+
+#bottom {
+  margin-top: 1060px;
+  position: absolute;
+  width: 750px;
+  height: 0px;
+  padding: 60px;
+  padding-top: 0px;
+
+}
+
+
+
+body { 
+  margin:0; 
+}

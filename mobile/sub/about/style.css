@@ -1,0 +1,79 @@
+﻿.header {
+  font-size: large;
+
+  font-weight: bold;
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: .1400em;
+  -webkit-text-size-adjust: none;
+}
+
+.header:hover {
+  font-size: large;
+
+  font-weight: bold;
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: .1400em;
+  -webkit-text-size-adjust: none;
+}
+
+.item {
+  font-size: large;
+
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 00em;
+  -webkit-text-size-adjust: none;
+}
+
+.statement {
+  font-size: large;
+
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 00em;
+  -webkit-text-size-adjust: none;
+}
+
+.statement:hover {
+  font-size: large;
+
+  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  text-transform: none;
+  text-decoration: underline;
+  color: #000000;
+  letter-spacing: 00em;
+  -webkit-text-size-adjust: none;
+}
+
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 130px;
+  height: 24px;
+}
+
+audio::-webkit-media-controls-mute-button {
+  display: none !important;
+}
+  
+audio::-webkit-media-controls-volume-slider {
+  display: none !important;
+}
+  
+audio::-webkit-media-controls-volume-control-container.closed {
+  display: none !important;
+}
+
+audio::-webkit-media-controls-volume-control-container{
+  display: none !important;
+}
+  

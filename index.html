@@ -3,7 +3,6 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link rel="stylesheet" href="style.css">
 
@@ -34,6 +33,14 @@
 					document.getElementById('right').scrollLeft = 0;
 				}
 
+				if (screen.width <= 699) {
+					document.location = "https://jadelien1618.github.io/ntuphoto_horizontal/mobile/mobile.html";
+				}
+				
+				if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+ 				  location.replace("https://jadelien1618.github.io/ntuphoto_horizontal/mobile/mobile.html");
+				}
+				
 		</script>
 	</head>
 
