@@ -5,12 +5,12 @@
 }
 
 header {
-  padding: 40px;
+  padding: 10px;
 }
 
 nav ul {
 	list-style-type: none;
-	padding: 40px;
+	padding: 10px;
   padding-bottom:60px;
 }
 
@@ -18,7 +18,7 @@ nav ul {
   font-size: 14px;
   line-height: 18px;
   font-weight: bold;
-  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  font-family: Candara;
   text-transform: none;
   text-decoration: none;
   color: #000000;
@@ -29,7 +29,7 @@ nav ul {
   font-size: 14px;
   line-height: 18px;
   font-weight: bold;
-  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  font-family: Candara;
   text-transform: none;
   text-decoration: none;
   color: #000000;
@@ -39,7 +39,7 @@ nav ul {
 .item {
   font-size: 14px;
   line-height: 16px;
-  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  font-family: Candara;
   text-transform: none;
   text-decoration: none;
   color: #000000;
@@ -49,7 +49,7 @@ nav ul {
 .item:hover {
   font-size: 14px;
   line-height: 16px;
-  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  font-family: Candara;
   text-transform: none;
   text-decoration: underline;
   color: #000000;
@@ -59,7 +59,7 @@ nav ul {
 .statement {
   font-size: 14px;
   line-height: 18px;
-  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  font-family: Candara;
   text-transform: none;
   text-decoration: none;
   color: #000000;
@@ -69,26 +69,41 @@ nav ul {
 .statement:hover {
   font-size: 14px;
   line-height: 18px;
-  font-family: trebuchet ms, arial, hevetica, sans-serif;
+  font-family: Candara;
   text-transform: none;
   text-decoration: underline;
   color: #000000;
   letter-spacing: 00em;
 }
+#leftleft {
+  position: fixed;
+
+
+
+
+  z-index: 10;
+}
 
 #left {
   position: fixed;
-  width: 376px;
-  height: 800px;
-  background-color: #ffffff;
+
+  width: 320px;
+  height: 100%;
+  background-color: white;
+
+  padding: 30px;
+  padding-right: 0px;
   z-index: 9;
 }
 
 #right {
-  margin-left: 370px;
+  margin-left: 350px;
+
   position: absolute;
-  width: 980px;
-  height: 750px;
+  width: 100%;
+
+  z-index: 6;
+  
 
 }
 
@@ -108,4 +123,19 @@ nav ul {
 
 body { 
   margin:0; 
+}
+
+
+.block #block1 {
+	width: 50px;
+	height: 37px;
+  float: left;
+
+  padding-right: 25px;
+}
+
+
+body {
+
+  border: 0px;
 }
